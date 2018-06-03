@@ -1,18 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="main.css">
 	<title>AnalogSea Signup</title>
 </head>
-<link rel="stylesheet" type="text/css" href="main.css">
-<div class=logo>
-<img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png">
-</div>
 <body>
-	<form class='demo-form' action="/some-server-endpoint" method="post">
+	<div class=logo>
+	<img src="https://tf-curricula-prod.s3.amazonaws.com/curricula/5b3249003592fc371bac5c6254b50c9c/FEWD-001/v6/assets2/1.6.2_challenge_signup_form/logo.png">
+</div>
+	<form class='signup' action="/signup/" method="post">
 		<div class=box>
 			<h1>Sign up</h1>
-			<label for="email">Email</label>
-			<input placeholder='foo@bar.com' type="email" name="email" id='email' />
+			<label for="email" required>Email</label>
+			<input placeholder='foo@bar.com' type="email" name="email" id='email' required/>
+			<label for="password" required>Password</label>
+			<input placeholder='1234passw0rd' type="password" name="psw" required/>
+			<button type="submit">Sign up</button>
 		</div>
 	<form>
 </body>
