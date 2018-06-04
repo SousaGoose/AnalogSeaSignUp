@@ -14,7 +14,8 @@ input {
 	border: 2px solid gray;
 	padding: 15px;
 	display: block;
-	margin-bottom: 15px;
+	margin-bottom: 50px;
+	margin-top: 20px;
 }
 h1 {
 	text-align: center;
@@ -36,13 +37,18 @@ button {
 	font-size: 20px;
 	color: white;
 }
-.txtlabel {
-	margin-bottom: 150px;
-}
 button:hover {
 	background-color: green;
 }
 .login {
 	color: white;
 	text-align: center;
+}
+a{
+	color: white;
+
+}
+a:hover{
+	font-size: 20px;
+	color: green;
 }
